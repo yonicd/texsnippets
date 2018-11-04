@@ -18,6 +18,11 @@ snippet ts_center
 
 	\end{${1:center}}
 
+snippet ts_equation
+	\begin{${1:equation}}
+
+	\end{${1:equation}}
+
 snippet ts_array
 	\begin{${1:array}}
 

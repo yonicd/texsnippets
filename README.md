@@ -27,6 +27,7 @@ ts_table
 ts_tabular
 ts_center
 ts_array
+ts_equation
 ts_caption
 ts_label
 ```
