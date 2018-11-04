@@ -1,0 +1,30 @@
+snippet ts_figure
+	\begin{${1:figure}}
+
+	\end{${1:figure}}
+
+snippet ts_table
+	\begin{${1:table}}
+
+	\end{${1:table}}
+
+snippet ts_tabular
+	\begin{${1:tabular}}
+
+	\end{${1:tabular}}
+
+snippet ts_center
+	\begin{${1:center}}
+
+	\end{${1:center}}
+
+snippet ts_array
+	\begin{${1:array}}
+
+	\end{${1:array}}
+
+snippet ts_caption
+	\caption{${1:CAPTION}}
+
+snippet ts_label
+	\label{${1:LABEL}}
