@@ -2,6 +2,22 @@
 
 Add `RStudio` snippets for boilerplate TeX commands
 
+## Installation
+
+```r
+remote::install_github('yonicd/texsnippets')
+```
+
+## Setup
+
+To set up the snippets in RStudio run
+
+```r
+texsnippets::add_snippets()
+```
+
+## Usage
+
 All snippets have a ts (texsnippets) prefix. Write `'ts'` in the `RStudio` source editor and press `tab` button.
 
 ```
@@ -15,18 +31,6 @@ ts_caption
 ts_label
 ```
 
-Where it is relevant the template below is used.
+## Example
 
-```
-\begin{ACTION}
-
-\end{ACTION}
-```
-
-example for `ts_figure`
-
-```
-\begin{figure}
-
-\end{figure}
-```
+![](readme_gifs/example.gif)
