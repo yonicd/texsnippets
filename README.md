@@ -18,8 +18,15 @@ ts_label
 Where it is relevant the template below is used.
 
 ```
-\begin{}
+\begin{ACTION}
 
-\end{}
+\end{ACTION}
 ```
 
+example for `ts_figure`
+
+```
+\begin{figure}
+
+\end{figure}
+```
