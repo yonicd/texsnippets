@@ -5,12 +5,12 @@ Add `RStudio` snippets for boilerplate TeX commands
 ## Installation
 
 ```r
-remote::install_github('yonicd/texsnippets')
+remotes::install_github('yonicd/texsnippets')
 ```
 
 ## Setup
 
-To set up the snippets in RStudio run
+To set up the snippets in RStudio run (after running it you must restart the Rstudio IDE)
 
 ```r
 texsnippets::add_snippets()
