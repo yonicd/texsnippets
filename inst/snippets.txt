@@ -1,3 +1,8 @@
+snippet ts_table_rows
+	\begin{table}
+	`r texsnippets:::ts_collect_rows($$)`
+	\end{table}
+
 snippet ts_{abstract}
 	\begin{abstract}
 
