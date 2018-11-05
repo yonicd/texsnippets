@@ -20,6 +20,11 @@ texsnippets::add_snippets()
 
 All snippets have a ts (texsnippets) prefix. Write `'ts'` in the `RStudio` source editor and press `tab` button.
 
+## Example
+
+![](readme_gifs/example.gif)
+
+
 ### Single Lines
 ```
 ts_{caption}
@@ -145,7 +150,3 @@ ts_{table}[wizard]{width}[pos]{cols}
 	\end{table}
 
 ```
-
-## Example
-
-![](readme_gifs/example.gif)
