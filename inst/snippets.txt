@@ -1,325 +1,400 @@
 snippet ts_{abstract}
-  \begin{abstract}
-  \end{abstract}
+	\begin{abstract}
+
+	\end{abstract}
 
 
 snippet ts_{alltt}
-  \begin{alltt}
-  \end{alltt}
+	\begin{alltt}
+
+	\end{alltt}
 
 
 snippet ts_{array}{cols}
-  \begin{array}{cols}
-  \end{array}
+	\begin{array}{cols}
+
+	\end{array}
 
 
 snippet ts_{array}[pos]{cols}
-  \begin{array}[pos]{cols}
-  \end{array}
+	\begin{array}[pos]{cols}
+
+	\end{array}
 
 
 snippet ts_{bmatrix}
-  \begin{bmatrix}
-  \end{bmatrix}
+	\begin{bmatrix}
+
+	\end{bmatrix}
 
 
 snippet ts_{Bmatrix}
-  \begin{Bmatrix}
-  \end{Bmatrix}
+	\begin{Bmatrix}
+
+	\end{Bmatrix}
 
 
 snippet ts_{center}
-  \begin{center}
-  \end{center}
+	\begin{center}
+
+	\end{center}
 
 
 snippet ts_{description}
-  \begin{description}
-  \end{description}
+	\begin{description}
+
+	\end{description}
 
 
 snippet ts_{description}\item
-  \begin{description}\item
-  \end{description}
+	\begin{description}\item
+
+	\end{description}
 
 
 snippet ts_{displaymath}
-  \begin{displaymath}
-  \end{displaymath}
+	\begin{displaymath}
+
+	\end{displaymath}
 
 
 snippet ts_{document}
-  \begin{document}
-  \end{document}
+	\begin{document}
+
+	\end{document}
 
 
 snippet ts_{enumerate}\item
-  \begin{enumerate}\item
-  \end{enumerate}
+	\begin{enumerate}\item
+
+	\end{enumerate}
 
 
 snippet ts_{equation}
-  \begin{equation}
-  \end{equation}
+	\begin{equation}
+
+	\end{equation}
 
 
 snippet ts_{eqnarray}
-  \begin{eqnarray}
-  \end{eqnarray}
+	\begin{eqnarray}
+
+	\end{eqnarray}
 
 
 snippet ts_{figure}
-  \begin{figure}
-  \end{figure}
+	\begin{figure}
+
+	\end{figure}
 
 
 snippet ts_{figure}[placement]
-  \begin{figure}[placement]
-  \end{figure}
+	\begin{figure}[placement]
+
+	\end{figure}
 
 
 snippet ts_{figure*}
-  \begin{figure*}
-  \end{figure*}
+	\begin{figure*}
+
+	\end{figure*}
 
 
 snippet ts_{figure*}[placement]
-  \begin{figure*}[placement]
-  \end{figure*}
+	\begin{figure*}[placement]
+
+	\end{figure*}
 
 
 snippet ts_{filecontents}
-  \begin{filecontents}
-  \end{filecontents}
+	\begin{filecontents}
+
+	\end{filecontents}
 
 
 snippet ts_{filecontents*}
-  \begin{filecontents*}
-  \end{filecontents*}
+	\begin{filecontents*}
+
+	\end{filecontents*}
 
 
 snippet ts_{flushleft}
-  \begin{flushleft}
-  \end{flushleft}
+	\begin{flushleft}
+
+	\end{flushleft}
 
 
 snippet ts_{flushright}
-  \begin{flushright}
-  \end{flushright}
+	\begin{flushright}
+
+	\end{flushright}
 
 
 snippet ts_{footnotesize}
-  \begin{footnotesize}
-  \end{footnotesize}
+	\begin{footnotesize}
+
+	\end{footnotesize}
 
 
 snippet ts_{Huge}
-  \begin{Huge}
-  \end{Huge}
+	\begin{Huge}
+
+	\end{Huge}
 
 
 snippet ts_{huge}
-  \begin{huge}
-  \end{huge}
+	\begin{huge}
+
+	\end{huge}
 
 
 snippet ts_{itemize}
-  \begin{itemize}
-  \end{itemize}
+	\begin{itemize}
+
+	\end{itemize}
 
 
 snippet ts_{itemize}\item
-  \begin{itemize}\item
-  \end{itemize}
+	\begin{itemize}\item
+
+	\end{itemize}
 
 
 snippet ts_{LARGE}
-  \begin{LARGE}
-  \end{LARGE}
+	\begin{LARGE}
+
+	\end{LARGE}
 
 
 snippet ts_{Large}
-  \begin{Large}
-  \end{Large}
+	\begin{Large}
+
+	\end{Large}
 
 
 snippet ts_{large}
-  \begin{large}
-  \end{large}
+	\begin{large}
+
+	\end{large}
 
 
 snippet ts_{list}{label}{spacing}
-  \begin{list}{label}{spacing}
-  \end{list}
+	\begin{list}{label}{spacing}
+
+	\end{list}
 
 
 snippet ts_{lrbox}
-  \begin{lrbox}
-  \end{lrbox}
+	\begin{lrbox}
+
+	\end{lrbox}
 
 
 snippet ts_{math}
-  \begin{math}
-  \end{math}
+	\begin{math}
+
+	\end{math}
 
 
 snippet ts_{matrix}
-  \begin{matrix}
-  \end{matrix}
+	\begin{matrix}
+
+	\end{matrix}
 
 
 snippet ts_{minipage}[position]{width}
-  \begin{minipage}[position]{width}
-  \end{minipage}
+	\begin{minipage}[position]{width}
+
+	\end{minipage}
 
 
 snippet ts_{minipage}{width}
-  \begin{minipage}{width}
-  \end{minipage}
+	\begin{minipage}{width}
+
+	\end{minipage}
 
 
 snippet ts_{normalsize}
-  \begin{normalsize}
-  \end{normalsize}
+	\begin{normalsize}
+
+	\end{normalsize}
 
 
 snippet ts_{picture}(width,height)
-  \begin{picture}(width,height)
-  \end{picture}
+	\begin{picture}(width,height)
+
+	\end{picture}
 
 
 snippet ts_{picture}(width,height)(xoffset,yoffset)
-  \begin{picture}(width,height)(xoffset,yoffset)
-  \end{picture}
+	\begin{picture}(width,height)(xoffset,yoffset)
+
+	\end{picture}
 
 
 snippet ts_{pmatrix}
-  \begin{pmatrix}
-  \end{pmatrix}
+	\begin{pmatrix}
+
+	\end{pmatrix}
 
 
 snippet ts_{quotation}
-  \begin{quotation}
-  \end{quotation}
+	\begin{quotation}
+
+	\end{quotation}
 
 
 snippet ts_{quote}
-  \begin{quote}
-  \end{quote}
+	\begin{quote}
+
+	\end{quote}
 
 
 snippet ts_{scriptsize}
-  \begin{scriptsize}
-  \end{scriptsize}
+	\begin{scriptsize}
+
+	\end{scriptsize}
 
 
 snippet ts_{small}
-  \begin{small}
-  \end{small}
+	\begin{small}
+
+	\end{small}
 
 
 snippet ts_{tabbing}
-  \begin{tabbing}
-  \end{tabbing}
+	\begin{tabbing}
+
+	\end{tabbing}
 
 
 snippet ts_{table*}
-  \begin{table*}
-  \end{table*}
+	\begin{table*}
+
+	\end{table*}
 
 
 snippet ts_{table*}[placement]
-  \begin{table*}[placement]
-  \end{table*}
+	\begin{table*}[placement]
+
+	\end{table*}
 
 
 snippet ts_{table}
-  \begin{table}
-  \end{table}
+	\begin{table}
+
+	\end{table}
 
 
 snippet ts_{table}[placement]
-  \begin{table}[placement]
-  \end{table}
+	\begin{table}[placement]
+
+	\end{table}
 
 
 snippet ts_{tabular}{cols}
-  \begin{tabular}{cols}
-  \end{tabular}
+	\begin{tabular}{cols}
+
+	\end{tabular}
 
 
 snippet ts_{tabular}[pos]{cols}
-  \begin{tabular}[pos]{cols}
-  \end{tabular}
+	\begin{tabular}[pos]{cols}
+
+	\end{tabular}
 
 
 snippet ts_{tabular*}{width}[pos]{cols}
-  \begin{tabular*}{width}[pos]{cols}
-  \end{tabular*}
+	\begin{tabular*}{width}[pos]{cols}
+
+	\end{tabular*}
 
 
 snippet ts_{tabular*}{width}{cols}
-  \begin{tabular*}{width}{cols}
-  \end{tabular*}
+	\begin{tabular*}{width}{cols}
+
+	\end{tabular*}
 
 
 snippet ts_{thebibliography}{widestlabel}
-  \begin{thebibliography}{widestlabel}
-  \end{thebibliography}
+	\begin{thebibliography}{widestlabel}
+
+	\end{thebibliography}
 
 
 snippet ts_{theindex}
-  \begin{theindex}
-  \end{theindex}
+	\begin{theindex}
+
+	\end{theindex}
 
 
 snippet ts_{theorem}
-  \begin{theorem}
-  \end{theorem}
+	\begin{theorem}
+
+	\end{theorem}
 
 
 snippet ts_{theorem}[optional]
-  \begin{theorem}[optional]
-  \end{theorem}
+	\begin{theorem}[optional]
+
+	\end{theorem}
 
 
 snippet ts_{tiny}
-  \begin{tiny}
-  \end{tiny}
+	\begin{tiny}
+
+	\end{tiny}
 
 
 snippet ts_{titlepage}
-  \begin{titlepage}
-  \end{titlepage}
+	\begin{titlepage}
+
+	\end{titlepage}
 
 
 snippet ts_{trivlist}
-  \begin{trivlist}
-  \end{trivlist}
+	\begin{trivlist}
+
+	\end{trivlist}
 
 
 snippet ts_{verbatim}
-  \begin{verbatim}
-  \end{verbatim}
+	\begin{verbatim}
+
+	\end{verbatim}
 
 
 snippet ts_{verbatim*}
-  \begin{verbatim*}
-  \end{verbatim*}
+	\begin{verbatim*}
+
+	\end{verbatim*}
 
 
 snippet ts_{Vmatrix}
-  \begin{Vmatrix}
-  \end{Vmatrix}
+	\begin{Vmatrix}
+
+	\end{Vmatrix}
 
 
 snippet ts_{vmatrix}
-  \begin{vmatrix}
-  \end{vmatrix}
+	\begin{vmatrix}
+
+	\end{vmatrix}
 
 
 snippet ts_{verse}
-  \begin{verse}
-  \end{verse}
+	\begin{verse}
 
+	\end{verse}
 
+snippet ts_{caption}
+	\caption{caption}
+
+snippet ts_{label}
+	\label{label}
+
+snippet ts_{usepackage}
+	\usepackage{package}
+
+snippet ts_{usepackage}[options]
+	\usepackage[options]{package}
