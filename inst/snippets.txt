@@ -399,7 +399,7 @@ snippet ts_{usepackage}
 snippet ts_{usepackage}[options]
 	\usepackage[options]{package}
 
-snippet ts_{table}[wizard]
+snippet ts_wizard_{table}
 	\begin{table}
 		\label{label}
 		\caption{caption}
@@ -408,7 +408,7 @@ snippet ts_{table}[wizard]
 		\end{tabular}
 	\end{table}
 
-snippet ts_{table}[wizard][placement]{width}[pos]{cols}
+snippet ts_wizard_{table}[placement]{width}[pos]{cols}
 	\begin{table}[placement]
 		\label{label}
 		\caption{caption}
@@ -417,7 +417,7 @@ snippet ts_{table}[wizard][placement]{width}[pos]{cols}
 		\end{tabular}
 	\end{table}
 
-snippet ts_{table}[wizard][placement]
+snippet ts_wizard_{table}[placement]
 	\begin{table}[placement]
 		\label{label}
 		\caption{caption}
@@ -426,7 +426,7 @@ snippet ts_{table}[wizard][placement]
 		\end{tabular}
 	\end{table}
 
-snippet ts_{table}[wizard]{width}[pos]{cols}
+snippet ts_wizard_{table}{width}[pos]{cols}
 	\begin{table}
 		\label{label}
 		\caption{caption}

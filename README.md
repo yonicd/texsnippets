@@ -109,7 +109,7 @@ ts_{verse}
 Templates of combinations of commands
 
 ```
-ts_{table}[wizard]
+ts_wizard_{table}
 
 	\begin{table}
 		\label{label}
@@ -119,7 +119,7 @@ ts_{table}[wizard]
 		\end{tabular}
 	\end{table}
 
-ts_{table}[wizard][placement]{width}[pos]{cols}
+ts_wizard_{table}[placement]{width}[pos]{cols}
 
 	\begin{table}[placement]
 		\label{label}
@@ -129,7 +129,7 @@ ts_{table}[wizard][placement]{width}[pos]{cols}
 		\end{tabular}
 	\end{table}
 
-ts_{table}[wizard][placement]
+ts_wizard_{table}[placement]
 
 	\begin{table}[placement]
 		\label{label}
@@ -139,7 +139,7 @@ ts_{table}[wizard][placement]
 		\end{tabular}
 	\end{table}
 
-ts_{table}[wizard]{width}[pos]{cols}
+ts_wizard_{table}{width}[pos]{cols}
 
 	\begin{table}
 		\label{label}
