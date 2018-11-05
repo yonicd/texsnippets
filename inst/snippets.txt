@@ -398,3 +398,39 @@ snippet ts_{usepackage}
 
 snippet ts_{usepackage}[options]
 	\usepackage[options]{package}
+
+snippet ts_{table}[wizard]
+	\begin{table}
+		\label{label}
+		\caption{caption}
+		\begin{tabular}
+
+		\end{tabular}
+	\end{table}
+
+snippet ts_{table}[wizard][placement]{width}[pos]{cols}
+	\begin{table}[placement]
+		\label{label}
+		\caption{caption}
+		\begin{tabular}{width}[pos]{cols}
+
+		\end{tabular}
+	\end{table}
+
+snippet ts_{table}[wizard][placement]
+	\begin{table}[placement]
+		\label{label}
+		\caption{caption}
+		\begin{tabular}
+
+		\end{tabular}
+	\end{table}
+
+snippet ts_{table}[wizard]{width}[pos]{cols}
+	\begin{table}
+		\label{label}
+		\caption{caption}
+		\begin{tabular}{width}[pos]{cols}
+
+		\end{tabular}
+	\end{table}
