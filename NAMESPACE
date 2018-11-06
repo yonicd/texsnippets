@@ -2,3 +2,6 @@
 
 export(update_texsnippets)
 export(use_texsnippets)
+importFrom(rstudioapi,getSourceEditorContext)
+importFrom(rstudioapi,isAvailable)
+importFrom(rstudioapi,modifyRange)

@@ -1,4 +1,9 @@
+#' @importFrom rstudioapi isAvailable modifyRange getSourceEditorContext
 ts_collect_rows <- function(obj){
+
+  if(!rstudioapi::isAvailable('0.99.706')){
+    return('')
+  }
 
   r <- as.numeric(gsub('\\D','',obj))
 

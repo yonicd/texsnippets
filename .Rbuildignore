@@ -2,3 +2,4 @@
 ^\.Rproj\.user$
 readme_gifs
 ^data-raw$
+^CONDUCT\.md$

@@ -161,3 +161,5 @@ ts_wizard_{table}{width}[pos]{cols}
 	\end{table}
 
 ```
+
+This project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
