@@ -13,7 +13,13 @@ remotes::install_github('yonicd/texsnippets')
 To set up the snippets in RStudio run (after running it you must restart the Rstudio IDE)
 
 ```r
-texsnippets::add_snippets()
+texsnippets::use_texsnippets()
+```
+
+If you already have texsnippets installed the package will check against the current package snippet definitions to see if your installation is out of date on you computer. If it is you will get a message on package load to run:
+
+```r
+texsnippets::update_texsnippets()
 ```
 
 ## Usage
