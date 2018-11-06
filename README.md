@@ -20,10 +20,15 @@ texsnippets::add_snippets()
 
 All snippets have a ts (texsnippets) prefix. Write `'ts'` in the `RStudio` source editor and press `tab` button.
 
-## Example
+## Examples
+
+### Boiler plate snippets
 
 ![](readme_gifs/example.gif)
 
+### Snippets that wrap around lines of text
+
+![](readme_gifs/smart_snippet.gif)
 
 ### Single Lines
 ```
