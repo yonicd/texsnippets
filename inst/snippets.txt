@@ -1,3 +1,5 @@
+# texsnippets #### DO NOT ERASE THIS COMMENT!
+
 snippet ts_table_rows
 	\begin{table}
 	`r texsnippets:::ts_collect_rows($$)`
@@ -439,3 +441,5 @@ snippet ts_wizard_{table}{width}[pos]{cols}
 
 		\end{tabular}
 	\end{table}
+
+# texsnippets #### DO NOT ERASE THIS COMMENT!
